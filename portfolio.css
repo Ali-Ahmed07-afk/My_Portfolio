@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #212121;
+    color: aliceblue;
+    padding: 20px; /* Edges se spacing ke liye */
+}
+
+#Bio {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+}
+
+h1 {
+    color: #646cff;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h2 {
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* Bio ke andar ki skills list (Flexbox Badges) */
+#Bio ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+#Bio li {
+    background-color: #334155;
+    padding: 6px 14px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Projects Section */
+.Project {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #1e293b;
+    color: #f1f5f9;
+    border: 1px solid #3d3d3d;
+    border-radius: 10px;
+}
+
+.Project li {
+    padding: 8px 0;
+    border-bottom: 1px solid #334155;
+}
+
+/* Buttons & Links */
+a {
+    display: inline-block; /* Margin/padding proper allow karta hai */
+    text-decoration: none;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease; /* Fixed: 'sec' to 's' */
+    margin-top: 8px;
+}
+
+a:hover {
+    background-color: #2b7a78;
+    transform: translateY(-2px);
+}
+.contact-link{
+    margin-top: 20px;
+}
+.light-theme{
+    color: #1e293b;
+}
